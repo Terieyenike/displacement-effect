@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  background: #4f4f4f;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.ticket {
+  position: relative;
+  height: 410px;
+  width: 690px;
+  background: black;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+  .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .flight-info {
+    position: relative;
+    z-index: 99;
+    padding: 30px;
+    h3 {
+      font-weight: 400;
+      color: #f2c94c;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .flight-locations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+    img {
+      width: 42px;
+      height: 39px;
+      margin: 0px 20px;
+    }
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 60px;
+    }
+  }
+}
+
+canvas {
+  position: absolute;
+  border-radius: 6px;
+  z-index: 0;
+}
