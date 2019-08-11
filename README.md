@@ -24,9 +24,15 @@ You need to have basic understanding of HTML, CSS, and Javascript. This project 
 
 1. Hover effect from [Robin Dela](https://github.com/robin-dela/hover-effect/blob/master/dist/hover-effect.umd.js)
 
+* The library that creates the actual effect
+
 2. [Three.js](https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js)
 
+* A WebGL library that the hover-effect library uses for the distortion
+
 3. [TweenMax](https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js)
+
+* A GSAP library that allows the hover-effect library to create the fade animation
 
 To use this external source code,
 
