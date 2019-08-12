@@ -8,13 +8,13 @@ The inspiration for this project came from the fact I want to create a displacem
 
 # Snapshot for the project
 
-![Displacement image 1](./displacement/img/displacement.png)
+![Displacement image 1](./Displacement/img/displacement.png)
 
 ![Distortion image 2](./distortion-webGL/img/Abj.png)
 
 # Preview for the project
 
-![Gif display](./displacement/img/displacement.gif)
+![Gif display](./Displacement/img/displacement.gif)
 
 ![Gif display 2](./distortion-webGL/img/distortion.gif)
 
